@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <section class="container">
+        <button class="add-cell">nuevo +</button>
+        <div class="container-celulares">
+            <div class="text-title">id</div>
+            <div class="text-title">marca</div>
+            <div class="text-title">color</div>
+            <div class="text-title">almacenamiento</div>
+            <div class="text-title">acciones</div>
+        </div>
+
+    </section>
+
+    <article class="container-list">
+        <div class="container-item">
+            <!-- <div class="id list">1</div>
+            <p class="marca list">iphone</p>
+            <p class="color list">dorado</p>
+            <p class="almacenamiento list">64gb</p>
+            <div class="btn-container">
+                <button class="btn edit " data="add-cell" id="0"> <i class="far fa-edit"></i> </button>
+                <button class=" btn eliminar" data="add-cell" id="1"><i class="fas fa-trash-alt"></i></button>
+            </div> -->
+        </div>
+    </article>
+    <!-- //<======================MODAL - INPUT=========================> -->
+    <div class="container-modal">
+        <div class="modal-content">
+            <form class="modal-form">
+                <h3 class="title">modifica el modelo</h3>
+                <div class="input-container">
+                    <input type="text" class="input  marca" placeholder="a">
+                    <label for="" class="label">marca</label>
+                </div>
+                <div class="input-container">
+                    <input type="text" class="input color" placeholder="a">
+                    <label for="" class="label">color</label>
+                </div>
+                <div class="input-container">
+                    <input type="text" class="input almacenamiento" placeholder="a">
+                    <label for="" class="label">almacenamiento</label>
+                </div>
+            </form>
+            <div class="form-btn">
+                <button class="btn-cancelar" data="cell" id="0" >cancelar</button>
+                <button class="btn-actualizar" data="cell" id="0" >actualizar</button>
+                <button class="btn-agregar" data="cell" id="0">agregar</button>
+                <button class="fas fa-times fa-lg btn-cerrar "></button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="bd.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
